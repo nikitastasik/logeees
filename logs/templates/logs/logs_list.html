@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Search</title>
+</head>
+<body>
+    <form action="/search/" method="get">
+        <label for="domain">domain: </label>
+        <input id="domain" type="url" name="domain" value="{{ domain_name }}">
+        <label for="logs">logs: </label>
+        <input id="logs" type="text" name="logs" value="{{ log_text }}">
+        <input type="submit" value="OK">
+    </form>
+</body>
+</html>
